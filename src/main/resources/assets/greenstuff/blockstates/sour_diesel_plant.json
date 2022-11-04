@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=lower": {
+      "model": "greenstuff:block/sour_diesel/weed_plant_bottom"
+    },
+    "half=upper": {
+      "model": "greenstuff:block/sour_diesel/weed_plant_top"
+    }
+  }
+}

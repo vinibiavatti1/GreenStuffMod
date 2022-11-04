@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/stem_growth2",
+  "render_type": "translucent",
+  "textures": {
+    "stem": "greenstuff:weed_plant_stem"
+  }
+}

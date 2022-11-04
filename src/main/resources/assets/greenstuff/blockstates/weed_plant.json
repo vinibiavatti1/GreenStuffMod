@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=lower": {
+      "model": "greenstuff:block/weed_plant_bottom"
+    },
+    "half=upper": {
+      "model": "greenstuff:block/weed_plant_top"
+    }
+  }
+}
