@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "B",
+    "P"
+  ],
+  "key": {
+    "P": {
+      "item": "minecraft:paper"
+    },
+    "B": [
+      { "item": "greenstuff:amnesia_haze_bud" },
+      { "item": "greenstuff:blue_cheese_bud" },
+      { "item": "greenstuff:blueberry_bud" },
+      { "item": "greenstuff:grape_ape_bud" },
+      { "item": "greenstuff:green_crack_bud" },
+      { "item": "greenstuff:lemon_haze_bud" },
+      { "item": "greenstuff:northern_lights_bud" },
+      { "item": "greenstuff:purple_kush_bud" },
+      { "item": "greenstuff:sour_diesel_bud" },
+      { "item": "greenstuff:strawberry_cough_bud" }
+    ]
+  },
+  "result": {
+    "item": "greenstuff:joint"
+  }
+}

@@ -1,5 +1,6 @@
 package com.greenstuff;
 
+import com.greenstuff.item.SmokableItem;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
@@ -47,4 +48,7 @@ public class ModItems {
     public static final RegistryObject<Item> PURPLE_KUSH_BUD = ITEMS.register("purple_kush_bud", () -> new Item(new Item.Properties().tab(ModTabs.GREENSTUFF_TAB)));
     public static final RegistryObject<Item> SOUR_DIESEL_BUD = ITEMS.register("sour_diesel_bud", () -> new Item(new Item.Properties().tab(ModTabs.GREENSTUFF_TAB)));
     public static final RegistryObject<Item> STRAWBERRY_COUGH_BUD = ITEMS.register("strawberry_cough_bud", () -> new Item(new Item.Properties().tab(ModTabs.GREENSTUFF_TAB)));
+
+    // Joint
+    public static final RegistryObject<Item> JOINT = ITEMS.register("joint", () -> new SmokableItem(new Item.Properties().tab(ModTabs.GREENSTUFF_TAB)));
 }
