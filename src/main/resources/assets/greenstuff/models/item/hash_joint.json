@@ -1,0 +1,11 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "greenstuff:hash_joint"
+  },
+  "display": {
+    "firstperson_righthand": {
+      "rotation": [0, 100, 0]
+    }
+  }
+}

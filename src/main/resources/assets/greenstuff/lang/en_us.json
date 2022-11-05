@@ -43,5 +43,7 @@
   "item.greenstuff.sour_diesel_bud": "Sour Diesel Bud [SATIVA]",
   "item.greenstuff.strawberry_cough_bud": "Strawberry Cough Bud [SATIVA]",
 
-  "item.greenstuff.joint": "Joint"
+  "item.greenstuff.hash": "Hash",
+  "item.greenstuff.joint": "Joint",
+  "item.greenstuff.hash_joint": "Hash Joint"
 }

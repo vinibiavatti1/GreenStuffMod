@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "greenstuff:weed_seeds_indica"
+    "layer0": "greenstuff:hash"
   }
 }
