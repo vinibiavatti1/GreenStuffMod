@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "B",
-    "P"
+    "C"
   ],
   "key": {
     "B": [
@@ -17,11 +17,11 @@
       { "item": "greenstuff:sour_diesel_bud" },
       { "item": "greenstuff:strawberry_cough_bud" }
     ],
-    "P": {
-      "item": "minecraft:paper"
+    "C": {
+      "item": "minecraft:cake"
     }
   },
   "result": {
-    "item": "greenstuff:joint"
+    "item": "greenstuff:space_cake"
   }
 }

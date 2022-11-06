@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "H",
+    "P"
+  ],
+  "key": {
+    "H": {
+      "item": "greenstuff:hash"
+    },
+    "P": {
+      "item": "minecraft:paper"
+    }
+  },
+  "result": {
+    "item": "greenstuff:joint"
+  }
+}
