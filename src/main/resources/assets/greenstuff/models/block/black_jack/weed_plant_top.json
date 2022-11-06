@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "render_type": "translucent",
+  "textures": {
+    "cross": "greenstuff:black_jack/weed_plant_top"
+  }
+}

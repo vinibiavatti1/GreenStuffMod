@@ -1,0 +1,31 @@
+{
+  "variants": {
+    "age=0,top=false": {
+      "model": "greenstuff:block/weed_plant_stage0"
+    },
+    "age=1,top=false": {
+      "model": "greenstuff:block/weed_plant_stage1"
+    },
+    "age=2,top=false": {
+      "model": "greenstuff:block/weed_plant_stage2"
+    },
+    "age=3,top=false": {
+      "model": "greenstuff:block/weed_plant_stage3"
+    },
+    "age=4,top=false": {
+      "model": "greenstuff:block/weed_plant_stage4"
+    },
+    "age=5,top=false": {
+      "model": "greenstuff:block/weed_plant_stage5"
+    },
+    "age=6,top=false": {
+      "model": "greenstuff:block/weed_plant_stage6"
+    },
+    "age=7,top=false": {
+      "model": "greenstuff:block/og_kush/weed_plant_bottom"
+    },
+    "age=7,top=true": {
+      "model": "greenstuff:block/og_kush/weed_plant_top"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "item": "greenstuff:northern_lights_seeds" },
+    { "item": "greenstuff:sour_diesel_seeds" }
+  ],
+  "result": {
+    "item": "greenstuff:jack_frost_seeds"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "item": "greenstuff:northern_lights_seeds" },
+    { "item": "greenstuff:amnesia_haze_seeds" }
+  ],
+  "result": {
+    "item": "greenstuff:golden_goat_seeds"
+  }
+}

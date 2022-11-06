@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "render_type": "translucent",
+  "textures": {
+    "cross": "greenstuff:white_widow/weed_plant_bottom"
+  }
+}
