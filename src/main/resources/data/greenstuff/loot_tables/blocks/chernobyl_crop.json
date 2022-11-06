@@ -8,37 +8,47 @@
   "pools": [
     {
       "bonus_rolls": 0.0,
+      "rolls": 1.0,
       "entries": [
         {
           "type": "minecraft:alternatives",
           "children": [
             {
               "type": "minecraft:item",
+              "name": "greenstuff:chernobyl_bud",
               "conditions": [
                 {
-                  "block": "greenstuff:weed_crop",
+                  "block": "greenstuff:chernobyl_crop",
                   "condition": "minecraft:block_state_property",
                   "properties": {
                     "age": "7"
                   }
                 }
-              ],
-              "name": "greenstuff:weed_plant"
+              ]
             },
             {
               "type": "minecraft:item",
-              "name": "greenstuff:weed_seeds"
+              "name": "greenstuff:chernobyl_seeds",
+              "conditions": [
+                {
+                  "block": "greenstuff:chernobyl_crop",
+                  "condition": "minecraft:block_state_property",
+                  "properties": {
+                    "age": "7"
+                  }
+                }
+              ]
             }
           ]
         }
-      ],
-      "rolls": 1.0
+      ]
     },
     {
       "bonus_rolls": 0.0,
+      "rolls": 1.0,
       "conditions": [
         {
-          "block": "greenstuff:weed_crop",
+          "block": "greenstuff:chernobyl_crop",
           "condition": "minecraft:block_state_property",
           "properties": {
             "age": "7"
@@ -48,6 +58,7 @@
       "entries": [
         {
           "type": "minecraft:item",
+          "name": "greenstuff:chernobyl_seeds",
           "functions": [
             {
               "enchantment": "minecraft:fortune",
@@ -58,11 +69,9 @@
                 "probability": 0.5714286
               }
             }
-          ],
-          "name": "greenstuff:weed_seeds"
+          ]
         }
-      ],
-      "rolls": 1.0
+      ]
     }
   ]
 }
