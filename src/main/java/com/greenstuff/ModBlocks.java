@@ -2,8 +2,6 @@ package com.greenstuff;
 
 import com.greenstuff.block.TallCropBlock;
 import net.minecraft.world.level.block.*;
-import net.minecraft.world.level.block.state.BlockBehaviour;
-import net.minecraft.world.level.material.Material;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
@@ -43,7 +41,7 @@ public class ModBlocks {
     public static final RegistryObject<Block> STRAWBERRY_BANANA_CROP = BLOCKS.register("strawberry_banana_crop", () -> new TallCropBlock(Block.Properties.copy(Blocks.WHEAT), ModItems.STRAWBERRY_BANANA_SEEDS));
     public static final RegistryObject<Block> WHITE_WIDOW_CROP = BLOCKS.register("white_widow_crop", () -> new TallCropBlock(Block.Properties.copy(Blocks.WHEAT), ModItems.WHITE_WIDOW_SEEDS));
     public static final RegistryObject<Block> WEDDING_CAKE_CROP = BLOCKS.register("wedding_cake_crop", () -> new TallCropBlock(Block.Properties.copy(Blocks.WHEAT), ModItems.WEDDING_CAKE_SEEDS));
-    public static final RegistryObject<Block> HEADBAND_CROP = BLOCKS.register("headband_crop_crop", () -> new TallCropBlock(Block.Properties.copy(Blocks.WHEAT), ModItems.HEADBAND_SEEDS));
+    public static final RegistryObject<Block> HEADBAND_CROP = BLOCKS.register("headband_crop", () -> new TallCropBlock(Block.Properties.copy(Blocks.WHEAT), ModItems.HEADBAND_SEEDS));
     public static final RegistryObject<Block> CHERNOBYL_CROP = BLOCKS.register("chernobyl_crop", () -> new TallCropBlock(Block.Properties.copy(Blocks.WHEAT), ModItems.CHERNOBYL_SEEDS));
     public static final RegistryObject<Block> GORILLA_GLUE_CROP = BLOCKS.register("gorilla_glue_crop", () -> new TallCropBlock(Block.Properties.copy(Blocks.WHEAT), ModItems.GORILLA_GLUE_SEEDS));
     public static final RegistryObject<Block> BLUE_DREAM_CROP = BLOCKS.register("blue_dream_crop", () -> new TallCropBlock(Block.Properties.copy(Blocks.WHEAT), ModItems.BLUE_DREAM_SEEDS));
@@ -63,7 +61,4 @@ public class ModBlocks {
     public static final RegistryObject<Block> CHERRY_PIE_CROP = BLOCKS.register("cherry_pie_crop", () -> new TallCropBlock(Block.Properties.copy(Blocks.WHEAT), ModItems.CHERRY_PIE_SEEDS));
     public static final RegistryObject<Block> GIRL_SCOUT_COOKIES_CROP = BLOCKS.register("girl_scout_cookies_crop", () -> new TallCropBlock(Block.Properties.copy(Blocks.WHEAT), ModItems.GIRL_SCOUT_COOKIES_SEEDS));
     public static final RegistryObject<Block> SHERBERT_CROP = BLOCKS.register("sherbert_crop", () -> new TallCropBlock(Block.Properties.copy(Blocks.WHEAT), ModItems.SHERBERT_SEEDS));
-
-    // Misc
-
 }

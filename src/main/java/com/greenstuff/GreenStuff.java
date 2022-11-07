@@ -26,6 +26,8 @@ public class GreenStuff
         modEventBus.addListener(this::commonSetup);
         ModBlocks.BLOCKS.register(modEventBus);
         ModItems.ITEMS.register(modEventBus);
+        ModConfiguredFeatures.CONFIGURED_FEATUES.register(modEventBus);
+        ModPlacedFeatures.PLACED_FEATURES.register(modEventBus);
         MinecraftForge.EVENT_BUS.register(this);
     }
 

@@ -112,10 +112,10 @@ public class ModItems {
     public static final RegistryObject<Item> SHERBERT_BUD = ITEMS.register("sherbert_bud", () -> new Item(new Item.Properties().tab(ModTabs.GREENSTUFF_TAB)));
 
     // Food
-    public static final RegistryObject<Item> SPACE_COOKIE = ITEMS.register("space_cookie", () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(2).saturationMod(0.1F).effect(new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 6400, 1), 1).effect(new MobEffectInstance(MobEffects.HUNGER, 6400, 1), 1).build()).tab(ModTabs.GREENSTUFF_TAB)));
+    public static final RegistryObject<Item> SPACE_COOKIE = ITEMS.register("space_cookie", () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(2).saturationMod(0.1F).effect(new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 3200, 1), 1).effect(new MobEffectInstance(MobEffects.HUNGER, 3200, 1), 1).build()).tab(ModTabs.GREENSTUFF_TAB)));
 
     // Misc
     public static final RegistryObject<Item> HASH = ITEMS.register("hash", () -> new Item(new Item.Properties().tab(ModTabs.GREENSTUFF_TAB)));
-    public static final RegistryObject<Item> JOINT = ITEMS.register("joint", () -> new SmokableItem(new Item.Properties().food(new FoodProperties.Builder().effect(new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 3200, 1), 1).effect(new MobEffectInstance(MobEffects.HUNGER, 3200, 1), 1).alwaysEat().build()).tab(ModTabs.GREENSTUFF_TAB)));
-    public static final RegistryObject<Item> HASH_JOINT = ITEMS.register("hash_joint", () -> new SmokableItem(new Item.Properties().food(new FoodProperties.Builder().effect(new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 6400, 1), 1).effect(new MobEffectInstance(MobEffects.HUNGER, 6400, 1), 1).effect(new MobEffectInstance(MobEffects.CONFUSION, 1600, 1), 1).alwaysEat().build()).tab(ModTabs.GREENSTUFF_TAB)));
+    public static final RegistryObject<Item> JOINT = ITEMS.register("joint", () -> new SmokableItem(new Item.Properties().food(new FoodProperties.Builder().effect(new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 1600, 1), 1).effect(new MobEffectInstance(MobEffects.HUNGER, 1600, 1), 1).alwaysEat().build()).tab(ModTabs.GREENSTUFF_TAB)));
+    public static final RegistryObject<Item> HASH_JOINT = ITEMS.register("hash_joint", () -> new SmokableItem(new Item.Properties().food(new FoodProperties.Builder().effect(new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 3200, 1), 1).effect(new MobEffectInstance(MobEffects.HUNGER, 3200, 1), 1).effect(new MobEffectInstance(MobEffects.CONFUSION, 800, 1), 1).alwaysEat().build()).tab(ModTabs.GREENSTUFF_TAB)));
 }

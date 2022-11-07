@@ -142,7 +142,16 @@ public class TallCropBlock extends CropBlock {
         if (state.getValue(TOP)) {
             return false;
         }
-        return state.getValue(AGE) < getMaxAge();
+        int currentAge = state.getValue(AGE);
+        if (currentAge == getMaxAge()) {
+            return false;
+        }
+        if (currentAge == getMaxAge() - 1) {
+            if (!level.getBlockState(position.above()).isAir()) {
+                return false;
+            }
+        }
+        return true;
     }
 
     /**

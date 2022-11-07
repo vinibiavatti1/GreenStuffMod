@@ -1,0 +1,26 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "minecraft:plains",
+    "minecraft:flower_forest",
+    "minecraft:birch_forest",
+    "minecraft:dark_forest",
+    "minecraft:savanna",
+    "minecraft:savanna_plateau",
+    "minecraft:old_growth_birch_forest",
+    "minecraft:sparse_jungle"
+  ],
+  "features": [
+    "greenstuff:blueberry_placed",
+    "greenstuff:blue_cheese_placed",
+    "greenstuff:purple_kush_placed",
+    "greenstuff:northern_lights_placed",
+    "greenstuff:grape_ape_placed",
+    "greenstuff:lemon_haze_placed",
+    "greenstuff:amnesia_haze_placed",
+    "greenstuff:sour_diesel_placed",
+    "greenstuff:green_crack_placed",
+    "greenstuff:strawberry_cough_placed"
+  ],
+  "step": "vegetal_decoration"
+}
