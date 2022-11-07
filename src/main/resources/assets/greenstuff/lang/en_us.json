@@ -121,5 +121,7 @@
   "item.greenstuff.hash": "Hash",
   "item.greenstuff.joint": "Joint",
   "item.greenstuff.hash_joint": "Hash Joint",
-  "item.greenstuff.space_cookie": "Space Cookie"
+  "item.greenstuff.space_cookie": "Space Cookie",
+
+  "itemGroup.greenstuff": "Green Stuff Mod"
 }
