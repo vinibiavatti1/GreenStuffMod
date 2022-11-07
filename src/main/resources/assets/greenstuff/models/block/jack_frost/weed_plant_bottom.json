@@ -1,6 +1,6 @@
 {
   "parent": "block/cross",
-  "render_type": "translucent",
+  "render_type": "cutout",
   "textures": {
     "cross": "greenstuff:jack_frost/weed_plant_bottom"
   }

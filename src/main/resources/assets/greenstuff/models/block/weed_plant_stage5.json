@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/stem_growth5",
-  "render_type": "translucent",
+  "render_type": "cutout",
   "textures": {
     "stem": "greenstuff:weed_plant_stem"
   }

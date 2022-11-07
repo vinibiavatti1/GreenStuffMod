@@ -1,6 +1,6 @@
 {
   "parent": "block/cross",
-  "render_type": "translucent",
+  "render_type": "cutout",
   "textures": {
     "cross": "greenstuff:gorilla_glue/weed_plant_top"
   }

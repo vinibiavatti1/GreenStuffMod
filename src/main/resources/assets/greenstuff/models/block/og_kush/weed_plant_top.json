@@ -1,6 +1,6 @@
 {
   "parent": "block/cross",
-  "render_type": "translucent",
+  "render_type": "cutout",
   "textures": {
     "cross": "greenstuff:og_kush/weed_plant_top"
   }
