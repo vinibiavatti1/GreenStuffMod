@@ -21,7 +21,7 @@ modId="greenstuff" #mandatory
 # see the associated build.gradle script for how to populate this completely automatically during a build
 version="${file.jarVersion}" #mandatory
  # A display name for the mod
-displayName="Green Stuff Mod" #mandatory
+displayName="Green Stuff Content" #mandatory
 # A URL to query for updates for this mod. See the JSON update specification https://mcforge.readthedocs.io/en/latest/gettingstarted/autoupdate/
 #updateJSONURL="https://change.me.example.invalid/updates.json" #optional
 # A URL for the "homepage" for this mod, displayed in the mod UI
@@ -29,7 +29,7 @@ displayName="Green Stuff Mod" #mandatory
 # A file name (in the root of the mod JAR) containing a logo for display
 logoFile="logo.png" #optional
 # A text field displayed in the mod UI
-credits="(+18) Have fun with the green stuff that this mod gives to you!" #optional
+credits="Have fun with the green stuff content that this mod gives to you!" #optional
 # A text field displayed in the mod UI
 authors="ViniB" #optional
 # Display Test controls the display for your mod in the server connection screen
@@ -42,8 +42,7 @@ authors="ViniB" #optional
 
 # The description text for the mod (multi line!) (#mandatory)
 description='''
-This mod introduce weed plants and crops categorized by strains. You can collect indica and sativa plants exploring the map, and craft hybrid strains by mixing the collected seeds you found. You can also smoke your own cultivated strain and appretiace the trip.
-(+18) Since this mod introduce narcotics to the game, you have to be overage in your country to play it.
+This mod introduce "magical" herb plants and crops categorized by strains. You can collect indica and sativa plants exploring the map, and craft hybrid strains by mixing the collected seeds you found. You can also use your own cultivated strain and appretiace the effects of it.
 '''
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
 [[dependencies.greenstuff]] #optional

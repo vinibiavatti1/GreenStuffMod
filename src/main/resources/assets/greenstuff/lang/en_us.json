@@ -119,9 +119,9 @@
   "item.greenstuff.sherbert_bud": "Sherbert Bud [HYBRID]",
 
   "item.greenstuff.hash": "Hash",
-  "item.greenstuff.joint": "Joint",
-  "item.greenstuff.hash_joint": "Hash Joint",
+  "item.greenstuff.joint": "Herb Cigarette",
+  "item.greenstuff.hash_joint": "Hash Cigarette",
   "item.greenstuff.space_cookie": "Space Cookie",
 
-  "itemGroup.greenstuff": "Green Stuff Mod"
+  "itemGroup.greenstuff": "Green Stuff Content"
 }
